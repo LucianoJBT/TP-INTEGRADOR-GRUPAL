@@ -1,0 +1,144 @@
+/* INICIO estilos seccion_1*/
+.navbar-expand-lg .navbar-collapse {
+    align-items: flex-end;
+    flex-direction: column;
+}
+/* FIN  estilos seccion_1*/
+
+/* Estilos seccion_2*/
+.infocarousel{
+  font-family:'Courier New', Courier, monospace;
+}
+.carouselExampleCaptions{
+    height: 545px;
+}
+#dos{
+    width: max-content;
+}
+.card{
+    height:680px;
+}
+/* fin estilos seccion_2*/
+/* INICIO  estilos seccion_4*/
+/*Medios de pago*/
+.m-de-pagos{
+    margin: auto;
+    padding: 15px;
+    background-color: aliceblue;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+.m-de-pagos, p{
+    padding: 25px 0px 10px 0px;
+    font-style:bold ;
+    font-size: 1.1em;
+}
+.m-pagos-t{
+    background-color: gainsboro;
+}
+
+.m-pagos{
+    background-color: brown;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+}
+.img-m-p{
+    width: 60%;
+    height: 60%;
+}
+/* FIN  estilos seccion_4*/
+
+/* INICIO estilos seccion_5*/
+.contenedorPrecioPromocion {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contenedorBotonAceptarOferta {
+    display: flex;
+    justify-content: center;
+
+}
+
+.contenedorPrecio,
+.contenedorPromocion {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.contenedorPrecio span {
+    color: green
+}
+
+.contenedorPromocion {
+    background-color: yellowgreen;
+    padding: .25rem 1rem;
+    border-radius: 4px;
+    font-weight: bold;
+    color: rgb(0, 0, 255);
+}
+
+.tituloOferta {
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: yellowgreen;
+}
+
+.card-title{
+    font-weight: bold;
+}
+/* FIN  estilos seccion_5*/
+
+.footer {
+    background-color: rgb(58, 58, 58);
+    width: 100%;
+    color: rgb(255, 255, 255);
+    text-decoration:solid;
+}
+
+.datafiscal {
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+}
+
+.redessociales{
+    justify-content: center;
+}
+
+.whatsapp {
+    position: absolute;
+    top: 940px;
+    right:0;
+    left: 1920px;
+    bottom: 0;
+    width: 80px;
+}
+
+.fa {
+    padding: 50px;
+    font-size: 40px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+.fa-facebook {
+    background: rgb(58, 58, 58);
+    color: white;}
+  
+.fa-twitter {
+    background: rgb(58, 58, 58);
+    color: white;}
+
+.fa-instagram{
+    background: rgb(58, 58, 58);
+    color: white;}
+    
+.fa-youtube-play{
+    background: rgb(58, 58, 58);
+    color: white;}
+        
